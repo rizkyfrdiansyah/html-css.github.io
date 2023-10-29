@@ -375,3 +375,263 @@ footer span {
 footer span.head {
   color: #ec9a29;
 }
+
+/* Tablets */
+@media screen and (min-width: 769px) and (max-width: 834px) {
+  header {
+    padding: 20px;
+  }
+
+  header img {
+    width: 200px; /* Mengurangi lebar logo untuk tablet */
+  }
+
+  main h1,
+  main h2 {
+    width: 100%; /* Lebar penuh pada tablet */
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  section {
+    padding: 0 20px; /* Mengurangi padding pada tablet */
+    margin-top: 30px;
+  }
+
+  section > div,
+  section > div.single {
+    width: 100%;
+  }
+
+  section h2 {
+    font-size: 24px; /* Ukuran font lebih kecil pada tablet */
+  }
+
+  section p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  section .gallery img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .products-list > div {
+    width: 100%;
+    height: 120px;
+  }
+
+  .products-list > div img {
+    height: 80px;
+  }
+
+  .product-section h2 {
+    font-size: 24px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 30px;
+  }
+
+  .product-section p {
+    font-size: 16px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .product-section p.price {
+    font-size: 28px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 34px;
+  }
+
+  .product-section > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .product-image img {
+    height: 300px; /* Mengurangi tinggi gambar pada tablet */
+  }
+
+  .product-description h2 {
+    font-size: 24px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 30px;
+  }
+
+  .product-description p {
+    font-size: 16px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .store-location {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .store-location > div {
+    width: 100%;
+  }
+
+  .store-location h2 {
+    font-size: 24px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 30px;
+  }
+
+  .store-location p {
+    font-size: 16px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 20px;
+  }
+
+  .store-location iframe {
+    height: 300px; /* Mengurangi tinggi iframe pada tablet */
+  }
+
+  footer {
+    padding: 40px 20px; /* Mengurangi padding pada tablet */
+  }
+
+  footer img.logo {
+    width: 150px; /* Mengurangi lebar logo pada tablet */
+  }
+
+  footer span {
+    font-size: 16px; /* Ukuran font lebih kecil pada tablet */
+    line-height: 20px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 428px) {
+  header {
+    padding: 15px;
+  }
+
+  header img {
+    width: 150px;
+  }
+
+  main {
+    height: 500px;
+    padding: 40px 20px;
+  }
+
+  main h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  main h2 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  section {
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+
+  section > div,
+  section > div.single {
+    width: 100%;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+
+  section p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  section .gallery img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .products-list > div {
+    width: 100%;
+    height: 120px;
+  }
+
+  .products-list > div img {
+    height: 80px;
+  }
+
+  .product-section h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .product-section p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .product-section p.price {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .product-section > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .product-image img {
+    height: 250px;
+  }
+
+  .product-description h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .product-description p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .store-location {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .store-location > div {
+    width: 100%;
+  }
+
+  .store-location h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .store-location p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .store-location iframe {
+    height: 200px;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+
+  footer img.logo {
+    width: 120px;
+  }
+
+  footer img.icon {
+    margin-right: 10px;
+  }
+
+  footer span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
